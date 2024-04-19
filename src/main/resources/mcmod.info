@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dsmod",
+  "name": "DSMod",
+  "description": "The Heart of DuckShield",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["korperka"],
+  "credits": "me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
