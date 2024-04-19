@@ -1,7 +1,6 @@
 package duckshield.dsmod.common.core;
 
 import duckshield.dsmod.client.lib.LibResources;
-import duckshield.dsmod.common.item.ModItems;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;

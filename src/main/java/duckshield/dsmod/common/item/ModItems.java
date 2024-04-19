@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 @Mod.EventBusSubscriber(modid = LibMisc.MOD_ID)
 public class ModItems {
-    public static final Item.ToolMaterial SHIELDIUM_TOOL_MATERIAL = EnumHelper.addToolMaterial("SHIELDIUM", 3, 950, 9, 2.5F, 10);
+    public static final Item.ToolMaterial SHIELDIUM_TOOL_MATERIAL = EnumHelper.addToolMaterial("SHIELDIUM", 4, 2561, 10, 4F, 10);
 
     public static final ArrayList<Item> ITEMS = new ArrayList<>();
 
