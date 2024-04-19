@@ -1,9 +1,9 @@
 package duckshield.dsmod.common.core;
 
 import duckshield.dsmod.client.lib.LibResources;
+import duckshield.dsmod.common.item.ModItems;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
@@ -22,7 +22,7 @@ public class DSModCreativeTab extends CreativeTabs {
     @Nonnull
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(Items.ARROW);
+        return new ItemStack(ModItems.SHIELDIUM_INGOT);
     }
 
     @Override
@@ -34,7 +34,7 @@ public class DSModCreativeTab extends CreativeTabs {
     public void displayAllRelevantItems(@Nonnull NonNullList<ItemStack> list) {
         this.list = list;
 
-        //addItem(var)
+        ModItems.ITEMS.forEach(this::addItem);
     }
 
     private void addItem(Item item) {
