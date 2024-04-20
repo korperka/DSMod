@@ -1,9 +1,9 @@
 itemGroup.dsmod=Предметы ДакШилда
 
-item.dsmod:shieldium_ingot.name=Слиток шилдия
-item.dsmod:shieldium_sword.name=Шилдиевый меч
-item.dsmod:shieldium_pickaxe.name=Шилдиевая кирка
-item.dsmod:shieldium_stick.name=Шилдиевая палка
-item.dsmod:shieldium_shovel.name=Шилдиевая лопата
-item.dsmod:shieldium_axe.name=Шилдиевый топор
-tile.dsmod:shieldium_ore.name=Шилдиевая руда
+item.shieldium_ingot.name=Слиток шилдия
+item.shieldium_sword.name=Шилдиевый меч
+item.shieldium_pickaxe.name=Шилдиевая кирка
+item.shieldium_stick.name=Шилдиевая палка
+item.shieldium_shovel.name=Шилдиевая лопата
+item.shieldium_axe.name=Шилдиевый топор
+tile.shieldium_ore.name=Шилдиевая руда

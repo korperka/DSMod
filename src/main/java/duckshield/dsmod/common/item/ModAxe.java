@@ -1,18 +1,14 @@
 package duckshield.dsmod.common.item;
 
-import duckshield.dsmod.client.lib.LibResources;
 import duckshield.dsmod.client.render.IModelRegister;
 import duckshield.dsmod.common.core.DSModCreativeTab;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.ItemAxe;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import javax.annotation.Nonnull;
 
 public class ModAxe extends ItemAxe implements IModelRegister {
     protected ModAxe(String name, ToolMaterial material) {
@@ -23,12 +19,6 @@ public class ModAxe extends ItemAxe implements IModelRegister {
         setCreativeTab(DSModCreativeTab.INSTANCE);
 
         ModItems.ITEMS.add(this);
-    }
-
-    @Nonnull
-    @Override
-    public String getUnlocalizedNameInefficiently(@Nonnull ItemStack par1ItemStack) {
-        return super.getUnlocalizedNameInefficiently(par1ItemStack).replaceAll("item\\.", "item." + LibResources.PREFIX_MOD);
     }
 
     @SideOnly(Side.CLIENT)
