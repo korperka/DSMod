@@ -1,9 +1,18 @@
 itemGroup.dsmod=Предметы ДакШилда
 
-item.shieldium_ingot.name=Слиток шилдия
+item.shieldium_ingot.name=Шилдиевый слиток
 item.shieldium_sword.name=Шилдиевый меч
 item.shieldium_pickaxe.name=Шилдиевая кирка
 item.shieldium_stick.name=Шилдиевая палка
 item.shieldium_shovel.name=Шилдиевая лопата
 item.shieldium_axe.name=Шилдиевый топор
+item.luxonium_sword.name=Люксониевый меч
+
 tile.shieldium_ore.name=Шилдиевая руда
+tile.luxonium_ore_mars.name=Люксониевая руда марса
+tile.luxonium_ore_mercury.name=Люксониевая руда меркурия
+tile.luxonium_ore_venus.name=Люксониевая руда венеры
+tile.tachyonium_ore.name=Тахиониевая руда
+tile.tardonium_ore_mars.name=Тардониевая руда марса
+tile.tardonium_ore_mercury.name=Тардониевая руда меркурия
+tile.tardonium_ore_venus.name=Тардониевая руда венеры

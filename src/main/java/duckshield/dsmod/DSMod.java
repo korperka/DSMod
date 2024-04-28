@@ -23,12 +23,12 @@ public class DSMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         GameRegistry.registerWorldGenerator(new ModOresGen(), 3);
+
         proxy.preInit(event);
     }
 
     @EventHandler
-    public void init(FMLInitializationEvent event)
-    {
+    public void init(FMLInitializationEvent event) {
         proxy.init(event);
     }
 

@@ -6,4 +6,13 @@ item.shieldium_pickaxe.name=Shieldium Pickaxe
 item.shieldium_stick.name=Shieldium Stick
 item.shieldium_shovel.name=Shieldium Shovel
 item.shieldium_axe.name=Shieldium Axe
+item.luxonium_sword.name=Luxonium Sword
+
 tile.shieldium_ore.name=Shieldium Ore
+tile.luxonium_ore_mars.name=Luxonium Ore of Mars
+tile.luxonium_ore_mercury.name=Luxonium Ore of Mercury
+tile.luxonium_ore_venus.name=Luxonium Ore of Venus
+tile.tachyonium_ore.name=Tachyonium Ore
+tile.tardonium_ore_mars.name=Tardonium Ore of Mars
+tile.tardonium_ore_mercury.name=Tardonium Ore of Mercury
+tile.tardonium_ore_venus.name=Tardonium Ore of Venus
