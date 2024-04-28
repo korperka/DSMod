@@ -1,0 +1,16 @@
+{
+  "item.luxonium_sword.ignite": {
+    "category": "player",
+    "subtitle": "item.luxonium_sword.ignite",
+    "sounds": [
+      "dsmod:item/luxonium_sword/ignite"
+    ]
+  },
+  "record.babka": {
+    "category": "record",
+    "subtitle": "record.babka",
+    "sounds": [
+      "dsmod:record/babka"
+    ]
+  }
+}

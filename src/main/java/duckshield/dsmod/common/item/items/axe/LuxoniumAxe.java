@@ -1,8 +1,8 @@
-package duckshield.dsmod.common.item.items.sword;
+package duckshield.dsmod.common.item.items.axe;
 
 import duckshield.dsmod.client.util.DSClientUtils;
+import duckshield.dsmod.common.item.ModAxe;
 import duckshield.dsmod.common.item.ModItems;
-import duckshield.dsmod.common.item.ModSword;
 import duckshield.dsmod.common.sounds.ModSounds;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
@@ -21,8 +21,8 @@ import net.minecraft.world.World;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 
-public class LuxoniumSword extends ModSword {
-    public LuxoniumSword(String name) {
+public class LuxoniumAxe extends ModAxe {
+    public LuxoniumAxe(String name) {
         super(name, ModItems.LUXONIUM_TOOL_MATERIAL);
     }
 
