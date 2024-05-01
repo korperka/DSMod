@@ -42,7 +42,7 @@ public class ModParticle extends Particle
     private static final double GROUND_DECCEL = 0.7D;
     private static final VertexFormat VERTEX_FORMAT = (new VertexFormat()).addElement(DefaultVertexFormats.POSITION_3F).addElement(DefaultVertexFormats.TEX_2F).addElement(DefaultVertexFormats.COLOR_4UB).addElement(DefaultVertexFormats.TEX_2S).addElement(DefaultVertexFormats.NORMAL_3B).addElement(DefaultVertexFormats.PADDING_1B);
 
-    private TextureDefinition TEXTURE_DEF;
+    public TextureDefinition TEXTURE_DEF;
 
     /*
      * Animation-related fields
@@ -119,7 +119,7 @@ public class ModParticle extends Particle
         processScaleTween();
     }
 
-    private void updateTick()
+    protected void updateTick()
     {
         if (particleAge++ >= particleMaxAge) { setExpired(); }
         progress = ((float)particleAge) / ((float)particleMaxAge);
@@ -141,7 +141,7 @@ public class ModParticle extends Particle
         particleAngle += (float)Math.PI * rotSpeed * 2.0F;
     }
 
-    private void processGravityAndDeccel()
+    protected void processGravityAndDeccel()
     {
         motionY -= GRAVITY * particleGravity;
         motionX *= deccel;

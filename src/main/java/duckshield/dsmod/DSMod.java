@@ -2,8 +2,8 @@ package duckshield.dsmod;
 
 import duckshield.dsmod.common.core.proxy.IProxy;
 import duckshield.dsmod.common.lib.LibMisc;
-import duckshield.dsmod.common.sounds.ModSounds;
-import duckshield.dsmod.common.world.gen.ModOresGen;
+import duckshield.dsmod.common.tileentity.RefractorTileEntity;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -23,7 +23,7 @@ public class DSMod
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        GameRegistry.registerWorldGenerator(new ModOresGen(), 3);
+        GameRegistry.registerTileEntity(RefractorTileEntity.class, new ResourceLocation(LibMisc.MOD_ID, "refractor"));
 
         proxy.preInit(event);
     }

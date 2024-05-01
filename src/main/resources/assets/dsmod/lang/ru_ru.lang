@@ -10,6 +10,9 @@ item.luxonium_sword.name=Люксониевый меч
 item.luxonium_pickaxe.name=Люксониевая кирка
 item.luxonium_shovel.name=Люксониевая лопата
 item.luxonium_axe.name=Люксониевый топор
+item.luxonium_ingot.name=Люксониевый слиток
+item.tardonium_ingot.name=Тардониевый слиток
+item.tachyonium.name=Кристал тахиония
 
 tile.shieldium_ore.name=Шилдиевая руда
 tile.luxonium_ore_mars.name=Люксониевая руда марса
@@ -19,5 +22,6 @@ tile.tachyonium_ore.name=Тахиониевая руда
 tile.tardonium_ore_mars.name=Тардониевая руда марса
 tile.tardonium_ore_mercury.name=Тардониевая руда меркурия
 tile.tardonium_ore_venus.name=Тардониевая руда венеры
+tile.refractor.name=Рефрактор
 
 item.luxonium_sword.ignite=Люксониевый взрыв

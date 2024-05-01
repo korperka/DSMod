@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "dsmod:items/shieldium_shovel"
+    "layer0": "dsmod:items/luxonium_ingot"
   }
 }

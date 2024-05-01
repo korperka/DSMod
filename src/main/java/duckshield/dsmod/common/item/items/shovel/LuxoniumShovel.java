@@ -32,6 +32,8 @@ public class LuxoniumShovel extends ModShovel {
                 worldIn.spawnEntity(new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), smeltedItem));
             }
 
+            stack.damageItem(1, entityLiving);
+
             return true;
         }
 

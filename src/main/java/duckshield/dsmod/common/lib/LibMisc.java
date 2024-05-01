@@ -7,4 +7,6 @@ public class LibMisc {
 
     public static final String PROXY_SERVER = "duckshield.dsmod.common.core.proxy.ServerProxy";
     public static final String PROXY_CLIENT = "duckshield.dsmod.client.core.proxy.ClientProxy";
+
+    public static final String OC_ID = "opencomputers";
 }

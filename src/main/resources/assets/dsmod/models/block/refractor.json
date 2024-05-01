@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "dsmod:blocks/refractor/refractor_top",
+    "side": "dsmod:blocks/refractor/refractor_side",
+    "front": "dsmod:blocks/refractor/refractor_front",
+    "bottom": "dsmod:blocks/refractor/refractor_side"
+  }
+}

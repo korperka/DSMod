@@ -10,11 +10,11 @@ import net.minecraft.util.NonNullList;
 
 import javax.annotation.Nonnull;
 
-public class DSModCreativeTab extends CreativeTabs {
-    public static final DSModCreativeTab INSTANCE = new DSModCreativeTab();
+public class ModCreativeTab extends CreativeTabs {
+    public static final ModCreativeTab INSTANCE = new ModCreativeTab();
     NonNullList<ItemStack> list;
 
-    public DSModCreativeTab() {
+    public ModCreativeTab() {
         super(LibMisc.MOD_ID);
         setBackgroundImageName(LibResources.GUI_CREATIVE);
     }

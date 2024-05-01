@@ -2,7 +2,7 @@ package duckshield.dsmod.common.block;
 
 import duckshield.dsmod.client.core.handler.ModelHandler;
 import duckshield.dsmod.client.render.IModelRegister;
-import duckshield.dsmod.common.core.DSModCreativeTab;
+import duckshield.dsmod.common.core.ModCreativeTab;
 import duckshield.dsmod.common.item.ModItems;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.block.BlockOre;
@@ -18,6 +18,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.util.Random;
 
 public class ModOreBlock extends BlockOre implements IModelRegister {
     private final Item item;
@@ -25,7 +26,7 @@ public class ModOreBlock extends BlockOre implements IModelRegister {
     public ModOreBlock(String name, int harvestLevel) {
         setRegistryName(new ResourceLocation(LibMisc.MOD_ID, name));
         setUnlocalizedName(name);
-        setCreativeTab(DSModCreativeTab.INSTANCE);
+        setCreativeTab(ModCreativeTab.INSTANCE);
         setHarvestLevel("pickaxe", harvestLevel);
 
         item = new ItemBlock(this).setRegistryName(getRegistryName());
@@ -48,5 +49,10 @@ public class ModOreBlock extends BlockOre implements IModelRegister {
         super.eventReceived(state, world, pos, id, param);
         TileEntity tileentity = world.getTileEntity(pos);
         return tileentity != null && tileentity.receiveClientEvent(id, param);
+    }
+
+    @Override
+    public Item getItemDropped(IBlockState state, Random random, int fortune) {
+        return this == ModBlocks.TACHYONIUM_ORE ? ModItems.TACHYONIUM : item;
     }
 }

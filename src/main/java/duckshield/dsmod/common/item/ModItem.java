@@ -1,7 +1,7 @@
 package duckshield.dsmod.common.item;
 
 import duckshield.dsmod.client.render.IModelRegister;
-import duckshield.dsmod.common.core.DSModCreativeTab;
+import duckshield.dsmod.common.core.ModCreativeTab;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -14,7 +14,7 @@ public class ModItem extends Item implements IModelRegister {
     public ModItem(String name) {
         setRegistryName(new ResourceLocation(LibMisc.MOD_ID, name));
         setUnlocalizedName(name);
-        setCreativeTab(DSModCreativeTab.INSTANCE);
+        setCreativeTab(ModCreativeTab.INSTANCE);
 
         ModItems.ITEMS.add(this);
     }

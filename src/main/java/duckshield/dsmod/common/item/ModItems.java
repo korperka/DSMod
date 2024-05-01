@@ -5,7 +5,6 @@ import duckshield.dsmod.common.item.items.pickaxe.LuxoniumPickaxe;
 import duckshield.dsmod.common.item.items.shovel.LuxoniumShovel;
 import duckshield.dsmod.common.item.items.sword.LuxoniumSword;
 import duckshield.dsmod.common.lib.LibMisc;
-import duckshield.dsmod.common.sounds.ModSounds;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
@@ -34,6 +33,10 @@ public class ModItems {
     public static final LuxoniumPickaxe LUXONIUM_PICKAXE = new LuxoniumPickaxe("luxonium_pickaxe");
     public static final LuxoniumShovel LUXONIUM_SHOVEL = new LuxoniumShovel("luxonium_shovel");
     public static final LuxoniumAxe LUXONIUM_AXE = new LuxoniumAxe("luxonium_axe");
+    public static final ModItem LUXONIUM_INGOT = new ModItem("luxonium_ingot");
+
+    public static final ModItem TARDONIUM_INGOT = new ModItem("tardonium_ingot");
+    public static final ModItem TACHYONIUM = new ModItem("tachyonium");
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {

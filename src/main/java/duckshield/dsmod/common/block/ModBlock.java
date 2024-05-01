@@ -2,7 +2,7 @@ package duckshield.dsmod.common.block;
 
 import duckshield.dsmod.client.core.handler.ModelHandler;
 import duckshield.dsmod.client.render.IModelRegister;
-import duckshield.dsmod.common.core.DSModCreativeTab;
+import duckshield.dsmod.common.core.ModCreativeTab;
 import duckshield.dsmod.common.item.ModItems;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.block.Block;
@@ -28,7 +28,7 @@ public class ModBlock extends Block implements IModelRegister {
 
         setRegistryName(new ResourceLocation(LibMisc.MOD_ID, name));
         setUnlocalizedName(name);
-        setCreativeTab(DSModCreativeTab.INSTANCE);
+        setCreativeTab(ModCreativeTab.INSTANCE);
 
         item = new ItemBlock(this).setRegistryName(getRegistryName());
 

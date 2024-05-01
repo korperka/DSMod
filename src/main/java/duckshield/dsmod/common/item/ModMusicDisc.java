@@ -1,9 +1,8 @@
 package duckshield.dsmod.common.item;
 
 import duckshield.dsmod.client.render.IModelRegister;
-import duckshield.dsmod.common.core.DSModCreativeTab;
+import duckshield.dsmod.common.core.ModCreativeTab;
 import duckshield.dsmod.common.lib.LibMisc;
-import mcp.MethodsReturnNonnullByDefault;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.item.ItemRecord;
@@ -28,7 +27,7 @@ public class ModMusicDisc extends ItemRecord implements IModelRegister
         setRegistryName(new ResourceLocation(LibMisc.MOD_ID, songName));
         setUnlocalizedName(songName);
 
-        setCreativeTab(DSModCreativeTab.INSTANCE);
+        setCreativeTab(ModCreativeTab.INSTANCE);
 
         ModItems.ITEMS.add(this);
     }

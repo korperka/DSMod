@@ -6,6 +6,7 @@ public class LibResources {
     public static final String PREFIX_MOD = LibMisc.MOD_ID + ":";
 
     public static final String LUXONIUM_IGNITE_PARTICLE = "luxonium_ignite";
+    public static final String SMOKE_PARTICLE = "smoke";
 
     public static final String GUI_CREATIVE = "dsmod.png";
 }
