@@ -35,7 +35,6 @@ public class ModItems {
     public static final LuxoniumAxe LUXONIUM_AXE = new LuxoniumAxe("luxonium_axe");
     public static final ModItem LUXONIUM_INGOT = new ModItem("luxonium_ingot");
 
-    public static final ModItem TARDONIUM_INGOT = new ModItem("tardonium_ingot");
     public static final ModItem TACHYONIUM = new ModItem("tachyonium");
 
     @SubscribeEvent

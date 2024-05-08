@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "dsmod:blocks/tardonium_ore_mercury"
-  }
-}

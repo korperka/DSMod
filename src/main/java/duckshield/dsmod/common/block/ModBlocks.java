@@ -20,9 +20,6 @@ public class ModBlocks {
     public static final Block LUXONIUM_ORE_MERCURY = new ModOreBlock("luxonium_ore_mercury", 4).setHardness(5).setResistance(7);
     public static final Block LUXONIUM_ORE_VENUS = new ModOreBlock("luxonium_ore_venus", 4).setHardness(5).setResistance(7);
     public static final Block TACHYONIUM_ORE = new ModOreBlock("tachyonium_ore", 5).setHardness(6).setResistance(8);
-    public static final Block TARDONIUM_ORE_MARS = new ModOreBlock("tardonium_ore_mars", 4).setHardness(5).setResistance(7);
-    public static final Block TARDONIUM_ORE_MERCURY = new ModOreBlock("tardonium_ore_mercury", 4).setHardness(5).setResistance(7);
-    public static final Block TARDONIUM_ORE_VENUS = new ModOreBlock("tardonium_ore_venus", 4).setHardness(5).setResistance(7);
     public static final Block REFRACTOR = new BlockRefractor("refractor");
 
     @SubscribeEvent
