@@ -18,6 +18,7 @@ import javax.annotation.Nullable;
 public class BlockRefractor extends ModBlock {
     public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
 
+    //TODO: сделать его носителем энергии и пофиксить баг с двумя верхними частями
     public BlockRefractor(String name) {
         super(name, Material.IRON);
 

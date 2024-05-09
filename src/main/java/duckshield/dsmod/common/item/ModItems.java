@@ -1,6 +1,7 @@
 package duckshield.dsmod.common.item;
 
 import duckshield.dsmod.common.item.items.axe.LuxoniumAxe;
+import duckshield.dsmod.common.item.items.pickaxe.BedrockDrill;
 import duckshield.dsmod.common.item.items.pickaxe.LuxoniumPickaxe;
 import duckshield.dsmod.common.item.items.shovel.LuxoniumShovel;
 import duckshield.dsmod.common.item.items.sword.LuxoniumSword;
@@ -16,8 +17,9 @@ import java.util.ArrayList;
 
 @Mod.EventBusSubscriber(modid = LibMisc.MOD_ID)
 public class ModItems {
-    public static final Item.ToolMaterial SHIELDIUM_TOOL_MATERIAL = EnumHelper.addToolMaterial("SHIELDIUM", 4, 2561, 10, 4, 10);
+    public static final Item.ToolMaterial SHIELDIUM_TOOL_MATERIAL = EnumHelper.addToolMaterial("SHIELDIUM", 4, 2561, 10, 4, 8);
     public static final Item.ToolMaterial LUXONIUM_TOOL_MATERIAL = EnumHelper.addToolMaterial("LUXONIUM", 5, 6122, 12, 6, 10);
+    public static final Item.ToolMaterial DRILL_MATERIAL = EnumHelper.addToolMaterial("DRILL", 4, 2561, 11, 4, 0);
 
     public static final ArrayList<Item> ITEMS = new ArrayList<>();
 
@@ -36,6 +38,10 @@ public class ModItems {
     public static final ModItem LUXONIUM_INGOT = new ModItem("luxonium_ingot");
 
     public static final ModItem TACHYONIUM = new ModItem("tachyonium");
+    public static final ModItem TACHYONIUM_CORE = new ModItem("tachyonium_core");
+
+    public static final ModItem DRILL_BIT = new ModItem("drill_bit");
+    public static final ModPickaxe BEDROCK_DRILL = new BedrockDrill("bedrock_drill");
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {

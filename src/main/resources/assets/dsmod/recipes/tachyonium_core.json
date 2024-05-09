@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LTL",
+    "TST",
+    "LTL"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "T": {
+      "item": "dsmod:tachyonium_ingot"
+    },
+    "L": {
+      "item": "dsmod:luxonium_ingot"
+    }
+  },
+  "result": {
+    "item": "dsmod:tachyonium_core",
+    "data": 0
+  }
+}

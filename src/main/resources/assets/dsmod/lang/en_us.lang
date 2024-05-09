@@ -13,6 +13,8 @@ item.luxonium_axe.name=Luxonium Axe
 item.luxonium_ingot.name=Luxonium Ingot
 item.tardonium_ingot.name=Tardonium Ingot
 item.tachyonium.name=Tachyonium Crystal
+item.bedrock_drill.name=Bedrock Drill
+item.drill_bit.name=Drill Bit
 
 tile.shieldium_ore.name=Shieldium Ore
 tile.luxonium_ore_mars.name=Luxonium Ore of Mars
@@ -23,5 +25,6 @@ tile.tardonium_ore_mars.name=Tardonium Ore of Mars
 tile.tardonium_ore_mercury.name=Tardonium Ore of Mercury
 tile.tardonium_ore_venus.name=Tardonium Ore of Venus
 tile.refractor.name=Refractor
+tile.crushed_bedrock.name=Crushed Bedrock
 
 item.luxonium_sword.ignite=Luxonium Explosion
