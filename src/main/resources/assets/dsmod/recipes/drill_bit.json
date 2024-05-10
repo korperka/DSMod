@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DSD",
+    "SPS",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "ingotSteel"
+    },
+    "D": {
+      "type": "forge:ore_dict",
+      "ore": "dustDiamond"
+    },
+    "P": {
+      "type": "forge:ore_dict",
+      "ore": "plateDenseObsidian"
+    }
+  },
+  "result": {
+    "item": "dsmod:drill_bit",
+    "data": 0
+  }
+}

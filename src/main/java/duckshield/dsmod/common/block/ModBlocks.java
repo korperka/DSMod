@@ -1,6 +1,7 @@
 package duckshield.dsmod.common.block;
 
 import duckshield.dsmod.common.block.blocks.BlockRefractor;
+import duckshield.dsmod.common.block.blocks.CrushedBedrock;
 import duckshield.dsmod.common.lib.LibMisc;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -21,7 +22,7 @@ public class ModBlocks {
     public static final Block LUXONIUM_ORE_VENUS = new ModOreBlock("luxonium_ore_venus", 4).setHardness(5).setResistance(7);
     public static final Block TACHYONIUM_ORE = new ModOreBlock("tachyonium_ore", 5).setHardness(6).setResistance(8);
     public static final Block REFRACTOR = new BlockRefractor("refractor").setHardness(5).setResistance(6);
-    public static final Block CRUSHED_BEDROCK = new ModBlock("crushed_bedrock", Material.ROCK).setHardness(6).setResistance(8);
+    public static final Block CRUSHED_BEDROCK = new CrushedBedrock("crushed_bedrock");
 
     @SubscribeEvent
     public static void registerBlocks(RegistryEvent.Register<Block> event) {

@@ -27,11 +27,6 @@ public class BedrockDrill extends ModPickaxe {
     }
 
     @Override
-    public boolean canHarvestBlock(IBlockState blockIn) {
-        return false;
-    }
-
-    @Override
     @ParametersAreNonnullByDefault
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         Vec3d lookVec = playerIn.getLookVec();

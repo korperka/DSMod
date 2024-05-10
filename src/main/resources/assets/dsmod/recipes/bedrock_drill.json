@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BI ",
+    "IS ",
+    "  S"
+  ],
+  "key": {
+    "B": {
+      "item": "dsmod:drill_bit"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "dsmod:shieldium_ingot"
+    }
+  },
+  "result": {
+    "item": "dsmod:bedrock_drill",
+    "data": 0
+  }
+}
